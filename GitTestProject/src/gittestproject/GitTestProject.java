@@ -18,8 +18,13 @@ public class GitTestProject {
         String[] names = {"Isaac", "Alejandra", "Mayra", "Miguel", "Mauro", "David", "Nadia", "Ania", "Axel", "Jacobo", "Alejandra", "Daniela"};
         for (String name : names){
             System.out.println(name);
+            System.out.println(GitTestProject.lettersCounter(name));
         }
         System.out.println("Listo!!");
+    }
+    
+    private static int lettersCounter(String name){
+        return name.length();
     }
     
 }
