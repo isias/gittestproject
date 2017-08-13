@@ -15,7 +15,7 @@ public class GitTestProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String[] names = {"Isaac", "Alejandra", "Mayra", "Miguel", "Mauro", "David", "Nadia", "Ania", "Axel"};
+        String[] names = {"Isaac", "Alejandra", "Mayra", "Miguel", "Mauro", "David", "Nadia", "Ania", "Axel", "Jacobo", "Alejandra", "Daniela"};
         for (String name : names){
             System.out.println(name);
         }
