@@ -15,16 +15,20 @@ public class GitTestProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        GitTestProject.printHelloWorld();
         String[] names = {"Isaac", "Alejandra", "Mayra", "Miguel", "Mauro", "David", "Nadia", "Ania", "Axel", "Jacobo", "Alejandra", "Daniela"};
-        for (String name : names){
+        for (String name : names) {
             System.out.println(name);
             System.out.println(GitTestProject.lettersCounter(name));
         }
         System.out.println("Listo!!");
     }
-    
-    private static int lettersCounter(String name){
+
+    private static int lettersCounter(String name) {
         return name.length();
     }
     
+    private static void printHelloWorld(){
+        System.out.println("Hello World!!");
+    }
 }
